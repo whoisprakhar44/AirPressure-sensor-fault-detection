@@ -1,0 +1,20 @@
+[ 2024-06-17 03:22:33,591 ] 16 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2024-06-17 03:22:33,591 ] 23 root - INFO - Exporting collection data as pandas dataframe
+[ 2024-06-17 03:22:33,591 ] 21 root - INFO - Reading data from database: aps and collection: sensor
+[ 2024-06-17 03:22:35,316 ] 23 root - INFO - Found columns: Index(['_id', 'class', 'aa_000', 'ab_000', 'ac_000', 'ad_000', 'ae_000',
+       'af_000', 'ag_000', 'ag_001',
+       ...
+       'ee_002', 'ee_003', 'ee_004', 'ee_005', 'ee_006', 'ee_007', 'ee_008',
+       'ee_009', 'ef_000', 'eg_000'],
+      dtype='object', length=172)
+[ 2024-06-17 03:22:35,318 ] 25 root - INFO - Dropping column: _id 
+[ 2024-06-17 03:22:35,445 ] 27 root - INFO - Row and columns in df: (36188, 171)
+[ 2024-06-17 03:22:35,445 ] 29 root - INFO - Save data in feature store
+[ 2024-06-17 03:22:35,985 ] 35 root - INFO - Create feature store folder if not available
+[ 2024-06-17 03:22:35,985 ] 39 root - INFO - Save df to feature store folder
+[ 2024-06-17 03:22:36,640 ] 44 root - INFO - split dataset into train and test set
+[ 2024-06-17 03:22:36,728 ] 48 root - INFO - create dataset directory folder if not available
+[ 2024-06-17 03:22:36,728 ] 53 root - INFO - Save df to feature store folder
+[ 2024-06-17 03:22:37,403 ] 65 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_file_path='/Users/prakhar/Desktop/VS Code Files/ineuron/AirPressure-sensor-fault-detection/artifact/06172024__032233/data_ingestion/feature_store/sensor.csv', train_file_path='/Users/prakhar/Desktop/VS Code Files/ineuron/AirPressure-sensor-fault-detection/artifact/06172024__032233/data_ingestion/dataset/train.csv', test_file_path='/Users/prakhar/Desktop/VS Code Files/ineuron/AirPressure-sensor-fault-detection/artifact/06172024__032233/data_ingestion/dataset/test.csv')
+[ 2024-06-17 03:22:37,560 ] 18 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Validation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2024-06-17 03:22:37,560 ] 107 root - INFO - Reading base dataframe

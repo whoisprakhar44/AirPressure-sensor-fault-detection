@@ -1,0 +1,3 @@
+[ 2024-06-17 02:55:58,570 ] 15 root - INFO - Creating model resolver object
+[ 2024-06-17 02:55:58,570 ] 17 root - INFO - Reading file :Data/aps_failure_training_set1.csv
+[ 2024-06-17 02:55:59,894 ] 22 root - INFO - Loading transformer to transform dataset
