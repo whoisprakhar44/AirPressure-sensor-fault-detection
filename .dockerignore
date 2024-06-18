@@ -1,0 +1,12 @@
+artifact
+logs
+notebook
+prediction
+saved_models
+*.egg-info
+.venv
+data_dump.py
+main.py
+README.md
+revision.pdf
+train.ipynb
